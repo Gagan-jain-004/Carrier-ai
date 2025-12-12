@@ -8,9 +8,8 @@ const nextConfig = {
       },
     ],
   },
-  // ⛔ Prevent ESLint warnings from breaking Vercel build
-  eslint: {
-    ignoreDuringBuilds: true,
+   eslint: {
+    ignoreDuringBuilds: true, // ✅ this will ignore ESLint errors during build
   },
 };
 
